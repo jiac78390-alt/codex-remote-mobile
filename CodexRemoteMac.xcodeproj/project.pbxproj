@@ -1,0 +1,66 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B10000000000000000000001 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20000000000000000000001 /* main.swift */; };
+		B10000000000000000000002 /* RemoteProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20000000000000000000002 /* RemoteProtocol.swift */; };
+		B10000000000000000000004 /* ComposerDraftState.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20000000000000000000004 /* ComposerDraftState.swift */; };
+		B10000000000000000000005 /* DesktopIPCRequestCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20000000000000000000005 /* DesktopIPCRequestCoordinator.swift */; };
+		B10000000000000000000006 /* DesktopGlobalStateStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20000000000000000000006 /* DesktopGlobalStateStore.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B20000000000000000000000 /* CodexRemoteMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodexRemoteMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B20000000000000000000001 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = main.swift; path = Sources/CodexRemoteMac/main.swift; sourceTree = "<group>"; };
+		B20000000000000000000002 /* RemoteProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RemoteProtocol.swift; path = Sources/CodexRemoteShared/RemoteProtocol.swift; sourceTree = "<group>"; };
+		B20000000000000000000003 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = CodexRemoteMac/Info.plist; sourceTree = "<group>"; };
+		B20000000000000000000004 /* ComposerDraftState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ComposerDraftState.swift; path = Sources/CodexRemoteShared/ComposerDraftState.swift; sourceTree = "<group>"; };
+		B20000000000000000000005 /* DesktopIPCRequestCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DesktopIPCRequestCoordinator.swift; path = Sources/CodexRemoteMac/DesktopIPCRequestCoordinator.swift; sourceTree = "<group>"; };
+		B20000000000000000000006 /* DesktopGlobalStateStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DesktopGlobalStateStore.swift; path = Sources/CodexRemoteMac/DesktopGlobalStateStore.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B30000000000000000000001 /* Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B40000000000000000000000 = {isa = PBXGroup; children = ( B40000000000000000000001, B40000000000000000000002, B40000000000000000000003 ); sourceTree = "<group>"; };
+		B40000000000000000000001 /* Sources */ = {isa = PBXGroup; children = ( B20000000000000000000001, B20000000000000000000002, B20000000000000000000004, B20000000000000000000005, B20000000000000000000006 ); name = Sources; sourceTree = "<group>"; };
+		B40000000000000000000002 /* Products */ = {isa = PBXGroup; children = ( B20000000000000000000000 ); name = Products; sourceTree = "<group>"; };
+		B40000000000000000000003 /* Resources */ = {isa = PBXGroup; children = ( B20000000000000000000003 ); name = Resources; sourceTree = "<group>"; };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B50000000000000000000001 /* CodexRemoteMac */ = {isa = PBXNativeTarget; buildConfigurationList = B60000000000000000000002; buildPhases = ( B30000000000000000000002, B30000000000000000000001, B30000000000000000000003 ); buildRules = (); dependencies = (); name = CodexRemoteMac; productName = CodexRemoteMac; productReference = B20000000000000000000000; productType = "com.apple.product-type.application"; };
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B50000000000000000000000 /* Project object */ = {isa = PBXProject; attributes = { LastUpgradeCheck = 1640; TargetAttributes = { B50000000000000000000001 = { CreatedOnToolsVersion = 16.4; }; }; }; buildConfigurationList = B60000000000000000000001; compatibilityVersion = "Xcode 15.0"; developmentRegion = en; hasScannedForEncodings = 0; knownRegions = ( en, Base ); mainGroup = B40000000000000000000000; productRefGroup = B40000000000000000000002; projectDirPath = ""; projectRoot = ""; targets = ( B50000000000000000000001 ); };
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B30000000000000000000003 /* Resources */ = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B30000000000000000000002 /* Sources */ = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = ( B10000000000000000000001, B10000000000000000000002, B10000000000000000000004, B10000000000000000000005, B10000000000000000000006 ); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B70000000000000000000001 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = { ALWAYS_SEARCH_USER_PATHS = NO; CLANG_ENABLE_MODULES = YES; CODE_SIGN_STYLE = Automatic; INFOPLIST_FILE = CodexRemoteMac/Info.plist; MACOSX_DEPLOYMENT_TARGET = 13.0; PRODUCT_BUNDLE_IDENTIFIER = "io.github.jiac78390-alt.CodexRemoteMac"; PRODUCT_NAME = "$(TARGET_NAME)"; SDKROOT = macosx; SWIFT_OPTIMIZATION_LEVEL = "-Onone"; SWIFT_VERSION = 5.0; ENABLE_APP_SANDBOX = NO; }; name = Debug; };
+		B70000000000000000000002 /* Release */ = {isa = XCBuildConfiguration; buildSettings = { ALWAYS_SEARCH_USER_PATHS = NO; CLANG_ENABLE_MODULES = YES; CODE_SIGN_STYLE = Automatic; INFOPLIST_FILE = CodexRemoteMac/Info.plist; MACOSX_DEPLOYMENT_TARGET = 13.0; PRODUCT_BUNDLE_IDENTIFIER = "io.github.jiac78390-alt.CodexRemoteMac"; PRODUCT_NAME = "$(TARGET_NAME)"; SDKROOT = macosx; SWIFT_VERSION = 5.0; ENABLE_APP_SANDBOX = NO; }; name = Release; };
+		B70000000000000000000003 /* Project Debug */ = {isa = XCBuildConfiguration; buildSettings = { ALWAYS_SEARCH_USER_PATHS = NO; CLANG_ENABLE_MODULES = YES; CLANG_ENABLE_OBJC_ARC = YES; }; name = Debug; };
+		B70000000000000000000004 /* Project Release */ = {isa = XCBuildConfiguration; buildSettings = { ALWAYS_SEARCH_USER_PATHS = NO; CLANG_ENABLE_MODULES = YES; CLANG_ENABLE_OBJC_ARC = YES; }; name = Release; };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B60000000000000000000001 = {isa = XCConfigurationList; buildConfigurations = ( B70000000000000000000003, B70000000000000000000004 ); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		B60000000000000000000002 = {isa = XCConfigurationList; buildConfigurations = ( B70000000000000000000001, B70000000000000000000002 ); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+/* End XCConfigurationList section */
+	};
+	rootObject = B50000000000000000000000;
+}
